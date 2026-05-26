@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikitha Yedugani | Business Analyst</title>
+<meta name="description" content="Business Analyst specializing in data analytics, reporting, Power BI, SQL, and process improvement. Open to opportunities at Deloitte, Accenture, EY, KPMG.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- THEME TOGGLE + PROGRESS BAR -->
+<div id="progress-bar"></div>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+  <span class="toggle-icon light-icon">☀</span>
+  <span class="toggle-icon dark-icon">◑</span>
+</button>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">
+      <span class="brand-initials">NY</span>
+      <span class="brand-name">Nikitha Yedugani</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li>
+        <a href="resume.pdf" download class="nav-resume-btn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-glow glow-1"></div>
+  <div class="hero-glow glow-2"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Available for Opportunities · Hyderabad, India
+      </div>
+      <h1 class="hero-name reveal-up delay-1">
+        Nikitha<br><em>Yedugani</em>
+      </h1>
+      <div class="hero-typing-wrap reveal-up delay-2">
+        <span class="typing-prefix">I am a </span>
+        <span class="typing-cursor" id="typingText"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc reveal-up delay-3">
+        Analytical professional transforming complex business requirements into actionable data insights. Skilled in Power BI, SQL, Python, and stakeholder engagement — delivering measurable impact across reporting, operations, and process improvement.
+      </p>
+      <div class="hero-actions reveal-up delay-4">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="resume.pdf" download class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+      <div class="hero-tags reveal-up delay-5">
+        <span class="htag">Power BI</span>
+        <span class="htag">SQL</span>
+        <span class="htag">Python</span>
+        <span class="htag">BRD / FRD</span>
+        <span class="htag">Django</span>
+        <span class="htag">Machine Learning</span>
+      </div>
+    </div>
+    <div class="hero-right reveal-right delay-2">
+      <div class="profile-frame">
+        <div class="profile-img-wrap">
+          <div class="profile-avatar">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" class="avatar-svg">
+              <circle cx="60" cy="45" r="26" fill="var(--avatar-skin)"/>
+              <ellipse cx="60" cy="110" rx="38" ry="28" fill="var(--avatar-skin)"/>
+              <circle cx="60" cy="45" r="26" fill="none" stroke="var(--avatar-outline)" stroke-width="1" opacity="0.3"/>
+            </svg>
+            <div class="avatar-initials">NY</div>
+          </div>
+          <div class="profile-ring ring-1"></div>
+          <div class="profile-ring ring-2"></div>
+        </div>
+        <div class="profile-card-tags">
+          <div class="pct pct-top">Business Analyst</div>
+          <div class="pct pct-right">Hexadata Solutions</div>
+        </div>
+        <div class="floating-kpi fk-1">
+          <span class="fk-num">3+</span>
+          <span class="fk-label">Projects</span>
+        </div>
+        <div class="floating-kpi fk-2">
+          <span class="fk-num">2yr</span>
+          <span class="fk-label">Experience</span>
+        </div>
+        <div class="floating-kpi fk-3">
+          <span class="fk-num">5+</span>
+          <span class="fk-label">Tech Skills</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- STATS BANNER -->
+<section class="stats-banner" id="stats">
+  <div class="stats-inner">
+    <div class="stat-item" data-target="2" data-suffix="+">
+      <div class="stat-num"><span class="counter">0</span><span>+</span></div>
+      <div class="stat-label">Years of Experience</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item" data-target="3" data-suffix="">
+      <div class="stat-num"><span class="counter">0</span></div>
+      <div class="stat-label">Live Projects Delivered</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item" data-target="10" data-suffix="+">
+      <div class="stat-num"><span class="counter">0</span><span>+</span></div>
+      <div class="stat-label">Stakeholders Engaged</div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item" data-target="100" data-suffix="%">
+      <div class="stat-num"><span class="counter">0</span><span>%</span></div>
+      <div class="stat-label">Documentation Accuracy</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section section-pad">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-eyebrow">About Me</span>
+      <h2 class="section-title">Analyst by Mindset,<br><em>Problem Solver</em> by Nature</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal-up delay-1">
+        <p>I'm a Business Analyst with hands-on experience at <strong>Hexadata Solutions, Hyderabad</strong>, where I bridge the gap between business stakeholders and technical teams. My work spans requirements gathering, process documentation, dashboard development, and data-driven decision support.</p>
+        <p>I thrive in environments that demand structured thinking, clear communication, and technical aptitude. With exposure to Power BI, SQL, Python, and ML workflows, I bring both analytical depth and documentation discipline to every engagement.</p>
+        <p>I am actively seeking roles in business analysis, data analytics, and reporting with firms like <strong>Deloitte, Accenture, EY, KPMG, Infosys, and TCS</strong> — where precision and insight drive value.</p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="hi-icon">◈</div>
+            <div>
+              <strong>Requirements Engineering</strong>
+              <span>BRD, FRD, Use Cases, User Stories</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">◈</div>
+            <div>
+              <strong>Data & Reporting</strong>
+              <span>Power BI Dashboards, SQL Queries, Excel Pivot Models</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="hi-icon">◈</div>
+            <div>
+              <strong>Process Improvement</strong>
+              <span>Workflow Analysis, Documentation, Stakeholder Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-card-col reveal-right delay-2">
+        <div class="about-info-card">
+          <div class="aic-row">
+            <span class="aic-label">Location</span>
+            <span class="aic-val">Hyderabad, Telangana, IN</span>
+          </div>
+          <div class="aic-row">
+            <span class="aic-label">Current Role</span>
+            <span class="aic-val">Business Analyst · Hexadata Solutions</span>
+          </div>
+          <div class="aic-row">
+            <span class="aic-label">Since</span>
+            <span class="aic-val">FT 2025 – Present</span>
+          </div>
+          <div class="aic-row">
+            <span class="aic-label">Domain</span>
+            <span class="aic-val">Analytics, Reporting, Operations</span>
+          </div>
+          <div class="aic-row">
+            <span class="aic-label">Target Firms</span>
+            <span class="aic-val">Deloitte · Accenture · EY · KPMG</span>
+          </div>
+          <div class="aic-row last">
+            <span class="aic-label">Status</span>
+            <span class="aic-val available">✦ Open to Opportunities</span>
+          </div>
+        </div>
+        <div class="cert-badges">
+          <div class="cert-badge">
+            <span class="cb-icon">▣</span>
+            <div>
+              <strong>Power BI</strong>
+              <span>Dashboard Development</span>
+            </div>
+          </div>
+          <div class="cert-badge">
+            <span class="cb-icon">▣</span>
+            <div>
+              <strong>Python + ML</strong>
+              <span>Applied Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="experience-section section-pad alt-bg">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-eyebrow">Career Timeline</span>
+      <h2 class="section-title">Work <em>Experience</em></h2>
+    </div>
+    <div class="timeline">
+      <!-- Current Role -->
+      <div class="timeline-item reveal-up delay-1">
+        <div class="tl-marker">
+          <div class="tl-dot active"></div>
+          <div class="tl-line"></div>
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <div class="tl-role-wrap">
+              <h3 class="tl-role">Business Analyst</h3>
+              <span class="tl-badge current">Current</span>
+            </div>
+            <div class="tl-company">Hexadata Solutions · Hyderabad</div>
+            <div class="tl-period">FT 2025 – Present</div>
+          </div>
+          <ul class="tl-bullets">
+            <li>Collaborated with project teams to define system objectives, scope, and constraints for customer website development — ensuring alignment on success criteria from inception.</li>
+            <li>Conducted end-to-end requirements gathering, elicitation, and formal documentation of Business Requirements Documents (BRD) and Functional Requirements Documents (FRD) with senior stakeholders.</li>
+            <li>Engineered advanced Excel solutions — pivot tables, charts, grouped data models, and refreshed reports — using worksheet data and external data sources.</li>
+            <li>Gathered business intelligence by interviewing cross-functional stakeholders and mapping existing workflows and operational procedures.</li>
+            <li>Prepared detailed business models, process flowcharts, and stakeholder-facing reports for executive and operational staff levels.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>BRD / FRD</span><span>Stakeholder Management</span><span>Excel Advanced</span><span>Process Mapping</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Internship -->
+      <div class="timeline-item reveal-up delay-2">
+        <div class="tl-marker">
+          <div class="tl-dot"></div>
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-header">
+            <div class="tl-role-wrap">
+              <h3 class="tl-role">Analyst Intern</h3>
+              <span class="tl-badge intern">Internship</span>
+            </div>
+            <div class="tl-company">HexaData Solutions · Hyderabad</div>
+            <div class="tl-period">September 2024 – April 2025</div>
+          </div>
+          <ul class="tl-bullets">
+            <li>Developed comprehensive business documentation — procedures, work instructions, and process flow diagrams — to standardize organizational knowledge.</li>
+            <li>Participated in knowledge transfer and requirements gathering sessions, clarifying business goals and identifying process improvement opportunities.</li>
+            <li>Translated ambiguous stakeholder requirements into structured deliverables including use cases, functional specifications, and process and data model diagrams.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Process Documentation</span><span>Requirements Gathering</span><span>Use Cases</span><span>Data Modeling</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section section-pad">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-eyebrow">Portfolio</span>
+      <h2 class="section-title">Featured <em>Projects</em></h2>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Project 1 - Power BI -->
+      <article class="project-card reveal-up delay-1">
+        <div class="pc-visual pc-visual-1">
+          <div class="pc-mockup">
+            <div class="mock-header">
+              <div class="mock-dots"><span></span><span></span><span></span></div>
+              <span class="mock-title">Invoice Analytics Dashboard</span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-kpis">
+                <div class="mk">
+                  <span class="mk-val" style="color:#2563eb">1,284</span>
+                  <span class="mk-l">Total Invoices</span>
+                </div>
+                <div class="mk">
+                  <span class="mk-val" style="color:#16a34a">94.2%</span>
+                  <span class="mk-l">SLA Met</span>
+                </div>
+                <div class="mk">
+                  <span class="mk-val" style="color:#dc2626">5.8%</span>
+                  <span class="mk-l">Exceptions</span>
+                </div>
+              </div>
+              <div class="mock-chart">
+                <div class="mc-bars">
+                  <div class="mc-bar" style="height:60%"><span>Jan</span></div>
+                  <div class="mc-bar" style="height:80%"><span>Feb</span></div>
+                  <div class="mc-bar" style="height:55%"><span>Mar</span></div>
+                  <div class="mc-bar" style="height:90%"><span>Apr</span></div>
+                  <div class="mc-bar" style="height:70%"><span>May</span></div>
+                  <div class="mc-bar" style="height:85%"><span>Jun</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pc-content">
+          <div class="pc-year">2026</div>
+          <h3 class="pc-title">Financial Operations &amp; Invoice Analytics Dashboard</h3>
+          <p class="pc-desc">Built a Power BI dashboard monitoring invoice processing, exception trends, operational KPIs, and workflow performance — enhancing reporting visibility and enabling data-driven decision-making.</p>
+          <div class="pc-features">
+            <div class="pcf">Invoice status &amp; SLA tracking</div>
+            <div class="pcf">Pending vs. completed analysis</div>
+            <div class="pcf">Vendor-wise trend reporting</div>
+            <div class="pcf">Exception &amp; rejection analysis</div>
+            <div class="pcf">Processing turnaround metrics</div>
+          </div>
+          <div class="pc-tech">
+            <span class="pct-tag pct-blue">Power BI</span>
+            <span class="pct-tag pct-gray">DAX</span>
+            <span class="pct-tag pct-gray">Excel</span>
+            <span class="pct-tag pct-blue">Data Modeling</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2 - Python ML -->
+      <article class="project-card reveal-up delay-2">
+        <div class="pc-visual pc-visual-2">
+          <div class="pc-mockup">
+            <div class="mock-header">
+              <div class="mock-dots"><span></span><span></span><span></span></div>
+              <span class="mock-title">Resume Parser System</span>
+            </div>
+            <div class="mock-body mock-code">
+              <div class="code-line"><span class="ck">import</span> <span class="cv">pdfplumber</span><span class="cn">, spacy</span></div>
+              <div class="code-line"><span class="ck">def</span> <span class="cf">extract_skills</span><span class="cn">(resume):</span></div>
+              <div class="code-line indent"><span class="cs">doc = nlp(resume.text)</span></div>
+              <div class="code-line indent"><span class="cs">skills = ner_model(doc)</span></div>
+              <div class="code-line indent"><span class="ck">return</span> <span class="cv">standardize(skills)</span></div>
+              <div class="code-line mt"></div>
+              <div class="code-pill">✓ Resume parsed — 12 skills extracted</div>
+              <div class="code-pill" style="--d:0.15s">✓ PDF → Structured template</div>
+              <div class="code-pill" style="--d:0.3s">✓ Profile summarized &amp; scored</div>
+            </div>
+          </div>
+        </div>
+        <div class="pc-content">
+          <div class="pc-year">2025</div>
+          <h3 class="pc-title">Resume Standardization System</h3>
+          <p class="pc-desc">Developed a Python + ML pipeline to extract candidate information from multi-format resumes and convert them into standardized templates — automating parsing, skill extraction, and PDF processing at scale.</p>
+          <div class="pc-features">
+            <div class="pcf">Automated resume parsing &amp; NER</div>
+            <div class="pcf">Skill extraction &amp; categorization</div>
+            <div class="pcf">PDF ingestion &amp; processing</div>
+            <div class="pcf">Profile summarization &amp; scoring</div>
+          </div>
+          <div class="pc-tech">
+            <span class="pct-tag pct-teal">Python</span>
+            <span class="pct-tag pct-teal">ML / NLP</span>
+            <span class="pct-tag pct-gray">PDF Processing</span>
+            <span class="pct-tag pct-teal">spaCy</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3 - Django -->
+      <article class="project-card reveal-up delay-3">
+        <div class="pc-visual pc-visual-3">
+          <div class="pc-mockup">
+            <div class="mock-header">
+              <div class="mock-dots"><span></span><span></span><span></span></div>
+              <span class="mock-title">Study Portal · Dashboard</span>
+            </div>
+            <div class="mock-body mock-portal">
+              <div class="portal-nav">
+                <span class="pn active">Dashboard</span>
+                <span class="pn">Homework</span>
+                <span class="pn">Dictionary</span>
+                <span class="pn">Videos</span>
+              </div>
+              <div class="portal-stats">
+                <div class="ps-card"><strong>12</strong><small>Tasks Due</small></div>
+                <div class="ps-card"><strong>87%</strong><small>Completed</small></div>
+                <div class="ps-card"><strong>24</strong><small>Videos</small></div>
+              </div>
+              <div class="portal-progress">
+                <div class="pp-label">Weekly Productivity</div>
+                <div class="pp-bar"><div class="pp-fill" style="width:72%">72%</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pc-content">
+          <div class="pc-year">2024</div>
+          <h3 class="pc-title">Student Study Portal</h3>
+          <p class="pc-desc">Built a Django-powered academic management portal enabling students to track homework, access dictionary tools, and explore YouTube learning resources — with dashboard navigation and user authentication.</p>
+          <div class="pc-features">
+            <div class="pcf">Homework &amp; task tracking</div>
+            <div class="pcf">YouTube API integration</div>
+            <div class="pcf">Dictionary integration</div>
+            <div class="pcf">User authentication &amp; sessions</div>
+          </div>
+          <div class="pc-tech">
+            <span class="pct-tag pct-amber">Django</span>
+            <span class="pct-tag pct-amber">SQL</span>
+            <span class="pct-tag pct-gray">HTML/CSS</span>
+            <span class="pct-tag pct-amber">YouTube API</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="skills-section section-pad alt-bg">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-eyebrow">Capabilities</span>
+      <h2 class="section-title">Skills &amp; <em>Technical Stack</em></h2>
+    </div>
+    <div class="skills-layout">
+      <div class="skills-bars reveal-up delay-1">
+        <h3 class="sk-subhead">Core Proficiencies</h3>
+        <div class="skill-bar-item" data-pct="92">
+          <div class="sb-meta">
+            <span class="sb-name">Microsoft Excel (Advanced)</span>
+            <span class="sb-pct">92%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="88">
+          <div class="sb-meta">
+            <span class="sb-name">Power BI Dashboard Development</span>
+            <span class="sb-pct">88%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="85">
+          <div class="sb-meta">
+            <span class="sb-name">SQL & Database Querying</span>
+            <span class="sb-pct">85%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="80">
+          <div class="sb-meta">
+            <span class="sb-name">Python (Data & Automation)</span>
+            <span class="sb-pct">80%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="90">
+          <div class="sb-meta">
+            <span class="sb-name">Requirements Documentation (BRD/FRD)</span>
+            <span class="sb-pct">90%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="75">
+          <div class="sb-meta">
+            <span class="sb-name">Django Web Framework</span>
+            <span class="sb-pct">75%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+        <div class="skill-bar-item" data-pct="72">
+          <div class="sb-meta">
+            <span class="sb-name">Machine Learning (Applied)</span>
+            <span class="sb-pct">72%</span>
+          </div>
+          <div class="sb-track"><div class="sb-fill" style="width:0%"></div></div>
+        </div>
+      </div>
+      <div class="skills-cats reveal-up delay-2">
+        <h3 class="sk-subhead">Domain Areas</h3>
+        <div class="skill-cats-grid">
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#eff6ff;color:#2563eb">◉</div>
+            <strong>Business Analysis</strong>
+            <p>Requirements gathering, stakeholder interviews, gap analysis, BRD/FRD authoring</p>
+          </div>
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#f0fdf4;color:#16a34a">◉</div>
+            <strong>Data & Reporting</strong>
+            <p>Power BI dashboards, Excel models, SQL queries, KPI tracking, trend analysis</p>
+          </div>
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#fefce8;color:#ca8a04">◉</div>
+            <strong>Process Improvement</strong>
+            <p>Workflow mapping, process flow diagrams, documentation standards, efficiency analysis</p>
+          </div>
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#fdf4ff;color:#9333ea">◉</div>
+            <strong>Technical Development</strong>
+            <p>Python scripting, ML pipelines, Django web development, PDF processing</p>
+          </div>
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#fff1f2;color:#e11d48">◉</div>
+            <strong>Stakeholder Engagement</strong>
+            <p>Cross-functional interviews, knowledge transfer, deliverable translation, presentations</p>
+          </div>
+          <div class="sc-card">
+            <div class="sc-icon" style="background:#f0fdfa;color:#0d9488">◉</div>
+            <strong>Operations Support</strong>
+            <p>Operational KPIs, SLA monitoring, exception reporting, invoice analytics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section section-pad">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <span class="section-eyebrow">Let's Connect</span>
+      <h2 class="section-title">Open to <em>Opportunities</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-left reveal-up delay-1">
+        <p class="contact-intro">I'm actively seeking roles in Business Analysis, Data Analytics, Reporting, and Operations at leading firms. Based in Hyderabad — available for hybrid and remote engagements.</p>
+        <div class="target-firms">
+          <div class="tf-label">Target Employers</div>
+          <div class="tf-list">
+            <span class="tf-chip">Deloitte</span>
+            <span class="tf-chip">Accenture</span>
+            <span class="tf-chip">EY</span>
+            <span class="tf-chip">KPMG</span>
+            <span class="tf-chip">Infosys</span>
+            <span class="tf-chip">TCS</span>
+            <span class="tf-chip">Wipro</span>
+            <span class="tf-chip">Capgemini</span>
+          </div>
+        </div>
+        <div class="contact-channels">
+          <a href="mailto:nikitha.yedugani@email.com" class="cc-item">
+            <div class="cc-icon">✉</div>
+            <div class="cc-info">
+              <strong>Email</strong>
+              <span>nikitha.yedugani@email.com</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/nikithayedugani" target="_blank" class="cc-item">
+            <div class="cc-icon">in</div>
+            <div class="cc-info">
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/nikithayedugani</span>
+            </div>
+          </a>
+          <a href="https://github.com/nikithayedugani" target="_blank" class="cc-item">
+            <div class="cc-icon">⌥</div>
+            <div class="cc-info">
+              <strong>GitHub</strong>
+              <span>github.com/nikithayedugani</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal-up delay-2">
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="cf-row">
+            <div class="cf-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" placeholder="Jane Smith" required>
+            </div>
+            <div class="cf-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" placeholder="jane@deloitte.com" required>
+            </div>
+          </div>
+          <div class="cf-group">
+            <label for="fcompany">Company / Organization</label>
+            <input type="text" id="fcompany" placeholder="Deloitte India">
+          </div>
+          <div class="cf-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="Business Analyst Opportunity – [Role Name]">
+          </div>
+          <div class="cf-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" rows="4" placeholder="Tell me about the opportunity or how I can help..." required></textarea>
+          </div>
+          <button type="submit" class="cf-submit" id="submitBtn">
+            <span>Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="cf-success" id="cfSuccess">✓ Message sent! I'll respond within 24 hours.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-initials">NY</span>
+      <div>
+        <strong>Nikitha Yedugani</strong>
+        <span>Business Analyst · Hyderabad, India</span>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-copy">
+      <span>© 2026 Nikitha Yedugani. All rights reserved.</span>
+      <a href="resume.pdf" download class="footer-resume-btn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Resume
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
